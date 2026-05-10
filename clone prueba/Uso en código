@@ -1,0 +1,12 @@
+// Asignar
+estudiante.Estado = EstadoEstudiante.Activo;
+
+// Comparar
+if (estudiante.Estado == EstadoEstudiante.Suspendido)
+{
+    // bloquear acceso
+}
+
+// Obtener nombre como texto
+string nombre = estudiante.Estado.ToString(); // "Activo"
+// Convertir de texto a Enum
